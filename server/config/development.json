@@ -4,5 +4,8 @@
   },
   "server": {
     "port": 8000
+  },
+  "steamApiKey" {
+  	"key": "BA94C878561AAB99D849FDCB045EB061" 
   }
 }
