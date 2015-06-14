@@ -1,0 +1,30 @@
+{
+  "name": "graphmedota2",
+  "version": "0.0.1",
+  "description": "Dota 2 statistics for mobile",
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab -a code -t 100 -v",
+    "test-cov-html": "node node_modules/lab/bin/lab -a code -r html -o coverage.html",
+    "start": "node lib/start.js"
+  },
+  "main": "lib/index.js",
+  "repository": "https://github.com/ZSnake/GraphMe",
+  "author": {
+    "name": "Hubert Cumberdale"
+  },
+  "keywords": [
+    "dota2, statistics, android"
+  ], 
+  "dependencies": 
+  {
+    "lodash": "3.9.3",
+    "getconfig": "2.1.0",
+    "hoek": "2.14.0",
+    "glob": "5.0.10",
+    "glue": "2.0.0",
+    "good-console": "5.0.2",
+    "lout": "6.2.2",
+    "mongoose": "4.0.5"
+  }
+  
+}
